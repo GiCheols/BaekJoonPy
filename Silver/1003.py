@@ -1,9 +1,11 @@
-fibo_one = []
-fibo_zero = []
+fibo_one = [0, 1]
+fibo_zero = [1, 0]
+"""_summary_
 fibo_zero.append(1)
 fibo_zero.append(0)
 fibo_one.append(0)
 fibo_one.append(1)
+"""
 
 for i in range(2, 41):
     fibo_zero.append(fibo_zero[i-1] + fibo_zero[i-2])
